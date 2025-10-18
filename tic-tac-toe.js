@@ -73,4 +73,8 @@ window.addEventListener('DOMContentLoaded', function(){
 
     }
 
+    document.querySelector('.btn').addEventListener('click', () => {
+        this.window.location.reload();
+    });
+
 });
